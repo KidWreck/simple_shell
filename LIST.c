@@ -2,7 +2,7 @@
 
 /**
  * _node - adds node
- * @h: head 
+ * @h: head
  * @s: string
  * @n: index
  * Return: size
