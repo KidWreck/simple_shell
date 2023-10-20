@@ -8,7 +8,7 @@
 int my_exit(my_t *h)
 {
 	int x;
-
+	
 	if (h->argv[1]) 
 	{
 		x = _erratoi(h->argv[1]);
