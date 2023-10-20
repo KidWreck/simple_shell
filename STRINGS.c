@@ -230,7 +230,6 @@ char *_chr(char *s, char c)
  * @d: delimeter
  * Return: pointer
  */
-
 char **_strtow(char *s, char *d)
 {
 	int i, j, k, x, num = 0;
