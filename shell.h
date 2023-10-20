@@ -22,8 +22,8 @@
 #define CONVERT_UNSIGNED	2
 #define USE_GETLINE		0
 #define USE_STRTOK		0
-#define HIST_FILE	".simple_shell_history"
-#define HIST_MAX	4096
+#define HIST_FILE		".simple_shell_history"
+#define HIST_MAX		4096
 
 extern char **environ;
 
@@ -43,19 +43,19 @@ typedef struct list_str
 
 /**
  *struct info - info
- *@arg: arguements
+ *@arg: args
  *@argv: array of args
  *@pa: path
- *@argc: argument count
+ *@argc: arg count
  *@l_count: count
- *@err_num: error
+ *@err_num: err
  *@l_flag: flag
- *@fname: the program filename
- *@_env: copy environ
- *@_environ: environ
+ *@fname: filename
+ *@_env: copy env
+ *@_environ: env
  *@history: history
  *@alias: alias
- *@env_ch: environ changed
+ *@env_ch: env changed
  *@status: status
  *@klam_buf: pointer
  *@klam_buf_type: ||, &&, ;
