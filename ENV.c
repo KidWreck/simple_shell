@@ -2,7 +2,7 @@
 
 /**
  * my_env - current environment
- * @info: Struct
+ * @h: Struct
  * Return: Always 0
  */
 int my_env(my_t *h)
