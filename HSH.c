@@ -114,10 +114,8 @@ void find_klam(my_t *h)
 }
 
 /**
- * fork_cmd - forks a an exec thread to run cmd
- * @info: the parameter & return info struct
- *
- * Return: void
+ * fork_cmd - forks cmd
+ * @h: struct
  */
 void fork_klam(my_t *h)
 {
