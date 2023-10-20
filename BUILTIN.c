@@ -103,7 +103,7 @@ int my_history(my_t *h)
 
 /**
  * unset_a - unsets alias
- * @info: struct
+ * @h: struct
  * @s: string
  * Return: 0 or 1
  */
