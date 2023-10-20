@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * main - entry 
+ * main - entry
  * @ac: counter
  * @av: vector
  * Return: 0 or 1
