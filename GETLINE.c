@@ -11,8 +11,8 @@ ssize_t i_buf(my_t *h, char **buf, size_t *len)
 {
 	ssize_t y = 0;
 	size_t p = 0;
-	
-	if (!*len) 
+
+	if (!*len)
 	{
 		free(*buf);
 		*buf = NULL;
@@ -55,7 +55,7 @@ ssize_t _getinput(my_t *h)
 
 	_putchar(FLUSH);
 	y = i_buf(h, &buf, &len);
-	if (y == -1) 
+	if (y == -1)
 		return (-1);
 	if (len)
 	{

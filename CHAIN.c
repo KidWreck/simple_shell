@@ -5,7 +5,7 @@
  * @h: struct
  * @buf: buffer
  * @p: pointer
- * Return: 1 or 0 
+ * Return: 1 or 0
  */
 int _chain(my_t *h, char *buf, size_t *p)
 {
@@ -23,9 +23,9 @@ int _chain(my_t *h, char *buf, size_t *p)
 		x++;
 		h->klam_buf_type = KLAM_AND;
 	}
-	else if (buf[x] == ';') 
+	else if (buf[x] == ';')
 	{
-		buf[x] = 0; 
+		buf[x] = 0;
 		h->klam_buf_type = KLAM_CHAIN;
 	}
 	else

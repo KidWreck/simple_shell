@@ -64,7 +64,7 @@ int print_alias(list_t *node)
 }
 
 /**
- * my_alias - mimics alias 
+ * my_alias - mimics alias
  * @h: Struct
  * Return: Always 0
  */
