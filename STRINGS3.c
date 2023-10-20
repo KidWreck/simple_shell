@@ -4,7 +4,7 @@
  * _chr - locate char
  * @s: string
  * @c: char
- * Return: pointer
+ * Return: NULL
  */
 char *_chr(char *s, char c)
 {
