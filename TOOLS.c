@@ -12,7 +12,7 @@ int my_int(my_t *h)
 
 /**
  * dlm -delimeter
- * @c: char 
+ * @c: char
  * @s: string
  * Return: 1 or 0
  */
