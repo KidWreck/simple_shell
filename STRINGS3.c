@@ -1,7 +1,7 @@
 #include "shell.h'
 
 /**
- *_chr - locate char
+ * _chr - locate char
  *@s: string
  *@c: char
  *Return: pointer
