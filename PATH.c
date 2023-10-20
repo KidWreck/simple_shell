@@ -22,7 +22,7 @@ int is_klam(my_t *h, char *pa)
 }
 
 /**
- * dup_c - duplicates 
+ * dup_c - duplicates
  * @pa: PATH
  * @strt: start
  * @stp: stop
