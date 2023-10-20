@@ -29,7 +29,7 @@ extern char **environ;
 
 
 /**
- * struct liststr - singly linked list
+ * struct list_str - singly linked list
  * @n: the number field
  * @s: string
  * @next: next
@@ -42,7 +42,7 @@ typedef struct list_str
 } list_t;
 
 /**
- *struct _info - info
+ *struct info - info
  *@arg: arguements
  *@argv: array of args
  *@pa: path
@@ -115,8 +115,8 @@ char *find_pa(my_t *, char *, char *);
 /* ERR_S.c */
 void _eputs(char *);
 int _eputchar(char);
-int _putfd(char , int );
-int _putsfd(char *, int );
+int _putfd(char, int);
+int _putsfd(char *, int);
 
 /* STRINGS.c */
 int _len(char *);
@@ -141,7 +141,7 @@ int bfree(void **);
 
 /* TOOLS.c */
 int my_int(my_t *);
-int dlm(char , char *);
+int dlm(char, char *);
 int _alpha(int);
 int _atoi(char *);
 int _erratoi(char *);
@@ -186,7 +186,7 @@ int set_env(my_t *, char *, char *);
 char *get_history(my_t *h);
 int w_history(my_t *h);
 int r_history(my_t *h);
-int history_list(my_t *, char *, int );
+int history_list(my_t *, char *, int);
 int renum_history(my_t *h);
 
 /* LIST.c */
