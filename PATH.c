@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * is_cmd - command
+ * is_klam - command
  * @h: struct
  * @pa: path
  * Return: 1 or 0
@@ -42,7 +42,7 @@ char *dup_c(char *pa, int strt, int stp)
 }
 
 /**
- * find_path - find PATH
+ * find_pa - find PATH
  * @h: struct
  * @pa: PATH
  * @klam: cmd
