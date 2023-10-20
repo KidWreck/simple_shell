@@ -185,7 +185,7 @@ char *_strncpy(char *dest, char *src, int x)
  **_strncat - concatenates strings
  *@dest: dest
  *@src: src
- *@n: char
+ *@x: char
  *Return: string
  */
 char *_strncat(char *dest, char *src, int x)
@@ -225,7 +225,7 @@ char *_chr(char *s, char c)
 }
 
 /**
- * strtow - splits
+ * _strtow - splits
  * @s: string
  * @d: delimeter
  * Return: pointer
@@ -272,7 +272,7 @@ char **_strtow(char *s, char *d)
 }
 
 /**
- * strtow2 - splits
+ * _strtow2 - splits
  * @s: string
  * @d: delimeter
  * Return: pointer
