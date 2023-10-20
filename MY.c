@@ -14,7 +14,7 @@ void my_clear(my_t *h)
 
 /**
  * my_set - my_t struct
- * @my: struct
+ * @h: struct
  * @av: argument
  */
 void my_set(my_t *h, char **av)
